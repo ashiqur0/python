@@ -28,3 +28,10 @@ price = {2.3, 4.3, 4.2}
 # Set With Different Data Type
 myset = {'apple', True, 10, 4.5}
 print(myset)
+
+# Set Type
+print(type(myset))
+
+# The set() constructor
+myset = set(('apple', 'banana', 'cherry'))
+print(myset)
